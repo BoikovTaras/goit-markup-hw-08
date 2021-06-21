@@ -1,0 +1,35 @@
+.presentation {
+  padding-top: 94px;
+  padding-bottom: 94px;
+}
+.presintation__list {
+  display: flex;
+  margin-top: -30px;
+  margin-left: -30px;
+}
+.presentation__item {
+  flex-basis: calc((100% - 90px) / 3);
+  margin-top: 30px;
+  margin-left: 30px;
+}
+.presentation__box {
+  position: relative;
+}
+.presintation__paragraf {
+  display: flex;
+  position: absolute;
+  width: 370px;
+  height: 70px;
+  left: 0;
+  bottom: 0;
+  justify-content: center;
+  align-items: center;
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 1.14;
+  text-align: center;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: #ffffff;
+  background: rgba(47, 48, 58, 0.8);
+}

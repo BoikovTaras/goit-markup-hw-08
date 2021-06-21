@@ -1,0 +1,45 @@
+.company {
+  padding-top: 94px;
+}
+
+.company__profile {
+  display: flex;
+  justify-content: space-between;
+  margin-left: -30px;
+}
+.company__profile-list {
+  margin-left: 30px;
+}
+
+.company__icon-block {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 270px;
+  height: 120px;
+  background-color: #f5f4fa;
+}
+
+.company__icon {
+  width: 70px;
+  height: 70px;
+}
+
+.company__profile-title {
+  font-style: normal;
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  margin-top: 30px;
+  color: var(--title-color);
+}
+.company__profile-text {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 1.71;
+  letter-spacing: 0.03em;
+  margin-top: 10px;
+}

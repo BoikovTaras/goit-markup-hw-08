@@ -59,9 +59,27 @@ img {
 }
 
 .container {
-  width: 480;
-  padding: 15px 16px;
-  margin: 0 auto;
+  width: 100%;
+  padding: 0 15px;
+}
+
+@media screen and (min-width: 480px) {
+  .container {
+    width: 480px;
+    margin: 0 auto;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .container {
+    width: 768px;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  .container {
+    width: 1200px;
+  }
 }
 
 .section {
@@ -203,6 +221,50 @@ img {
 
 .header {
   border-bottom: 1px solid #ececec;
+}
+
+.header__logo {
+  display: flex;
+  color: var(--title-color);
+}
+
+.header__conteiner {
+  position: relative;
+  display: block;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.header__mobile-button {
+  position: absolute;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  top: 0px;
+  right: 0px;
+  padding: 0;
+  border: none;
+  box-sizing: border-box;
+  cursor: pointer;
+}
+
+.header__mobile-menu {
+  width: 40px;
+  height: 40px;
+  border: 2px solid red;
+}
+
+.header__navigation,
+.header__contacts {
+  display: flex;
+}
+
+.header__link-conteiner {
+  display: none;
+}
+
+.header__contacts {
+  display: none;
 }
 
 .hero {

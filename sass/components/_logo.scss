@@ -6,8 +6,8 @@
   line-height: 1.19;
   letter-spacing: 0.03em;
   align-items: center;
-}
 
-.logo__akcent {
-  color: var(--akcent-color);
+  &__akcent {
+    color: var(--akcent-color);
+  }
 }

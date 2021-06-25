@@ -66,6 +66,12 @@
   fill: #ffffff;
 }
 
+@media screen and (min-width: 768px) {
+  .team__conect {
+    padding: 30px 74px 24px 74px;
+  }
+}
+
 @media screen and (min-width: 1200px) {
   .team__conect {
     padding: 30px;

@@ -59,7 +59,7 @@ img {
 }
 
 .container {
-  width: 100%;
+  width: 100vw;
   padding: 0 15px;
 }
 
@@ -580,7 +580,7 @@ img {
 }
 
 .team__list-item {
-  flex-basis: calc((100% - 120px) / 4);
+  flex-basis: calc((100% - 60px) / 4);
   margin-left: 30px;
   margin-top: 30px;
   background: #ffffff;
@@ -667,7 +667,7 @@ img {
 }
 
 .client__icon-items {
-  width: 210px;
+  flex-basis: calc((100% - 120px) / 2);
   height: 92px;
   margin-top: 30px;
   margin-left: 30px;

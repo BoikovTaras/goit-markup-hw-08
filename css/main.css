@@ -59,7 +59,7 @@ img {
 }
 
 .container {
-  width: 100vw;
+  width: 100%;
   padding: 0 15px;
 }
 
@@ -572,28 +572,21 @@ img {
 }
 
 .team__list {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
-  margin-left: -30px;
   margin-top: -30px;
 }
 
 .team__list-item {
-  flex-basis: calc((100% - 60px) / 4);
-  margin-left: 30px;
+  max-width: 450px;
+  height: auto;
   margin-top: 30px;
   background: #ffffff;
   box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
   border-radius: 0px 0px 4px 4px;
 }
 
-.team__picture {
-  max-width: 100%;
-}
-
 .team__conect {
-  padding: 30px 122px 24px 122px;
+  padding-top: 30px;
+  padding-bottom: 24px;
 }
 
 .team__content-title {
@@ -617,8 +610,12 @@ img {
 }
 
 .social__list {
-  justify-content: space-between;
+  justify-content: center;
   margin-top: 16px;
+}
+
+.social__item:not(:first-child) {
+  margin-left: 10px;
 }
 
 .social__link_state_white {
@@ -635,15 +632,9 @@ img {
   fill: #ffffff;
 }
 
-@media screen and (min-width: 768px) {
-  .team__conect {
-    padding: 30px 74px 24px 74px;
-  }
-}
-
 @media screen and (min-width: 1200px) {
   .team__conect {
-    padding: 30px;
+    padding-bottom: 30px;
   }
   .team {
     padding-top: 94px;
@@ -667,7 +658,7 @@ img {
 }
 
 .client__icon-items {
-  flex-basis: calc((100% - 120px) / 2);
+  width: calc((100% - 60px) / 2);
   height: 92px;
   margin-top: 30px;
   margin-left: 30px;

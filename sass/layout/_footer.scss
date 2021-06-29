@@ -192,6 +192,7 @@
 @media screen and (min-width: 1200px) {
   .footer__contacts {
     margin-left: 70px;
+    text-align: start;
   }
 
   .footer__contacts-title {
@@ -215,16 +216,21 @@
   }
 
   .footer__container {
-    flex-wrap: wrap;
-    justify-content: center;
+    flex-wrap: nowrap;
+    justify-content: flex-start;
   }
 
   .footer__form-title {
     margin-top: 15px;
+    text-align: start;
   }
 
   .footer__form-btn {
     margin-top: 0;
     margin-left: 12px;
+  }
+
+  .footer__adress {
+    text-align: start;
   }
 }

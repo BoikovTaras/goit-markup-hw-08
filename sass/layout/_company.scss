@@ -55,11 +55,15 @@
   .company__profile-list {
     width: 354px;
   }
+  .company__profile-title {
+    text-align: start;
+  }
 }
 
 @media screen and (min-width: 1200px) {
   .company {
     padding-top: 94px;
+    padding-bottom: 0;
   }
   .company__profile {
     flex-wrap: nowrap;

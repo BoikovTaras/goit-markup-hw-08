@@ -49,11 +49,56 @@
                         </a>
                     </li>
                 </ul>
-                <button class="header__mobile-button" type="button">
+                <button class="header__mobile-button" type="button" data-menu-button>
                     <svg class="header__mobile-menu">
                         <use href="./images/svg/sprite.svg#mobile-menu"></use>
                     </svg>
                 </button>
+            </div>
+            <div class="mobile-menu" data-menu>
+                <div class="mobile-menu__container">
+                    <button type="button" class="mobile-menu__close-btn" data-menu-close>
+                        <svg class="mobile-menu__close-btn-icon">
+                            <use href="./images/svg/sprite.svg#icon-close-black-18dp-2-1"></use>
+                        </svg>
+                    </button>
+                    <ul class="mobile-menu__nav">
+                        <li class="mobile-menu__list list">
+                            <a href="./index.html" class="mobile-menu__linck link">Студия</a>
+                        </li>
+                        <li class="mobile-menu__list list">
+                            <a href="./portfolio.html" class="mobile-menu__linck link">Портфолио</a>
+                        </li>
+                        <li class="mobile-menu__list list">
+                            <a href="#" class="mobile-menu__linck link">Контакты</a>
+                        </li>
+                    </ul>
+                    <div class="mobile-menu__bottom-box">
+                        <ul class="mobile-menu__adress">
+                            <li class="mobile-menu__adress-list list">
+                                <a class="mobile-menu__tel link" href="tel:+38 096 111 11 11">+38 096 111 11 11</a>
+                            </li>
+                            <li class="mobile-menu__adress-list list">
+                                <a class="mobile-menu__mail link" href="mailto:info@devstudio.com">info@devstudio.com</a>
+                            </li>
+                        </ul>
+                        <ul class="mobile-menu__social">
+                            <li class="mobile-menu__social-list list">
+                                <a href="#" class="mobile-menu__social-link link">Instagram</a>
+                            </li>
+                            <li class="mobile-menu__social-list list">
+                                <a href="#" class="mobile-menu__social-link link">Twitter</a>
+                            </li>
+                            <li class="mobile-menu__social-list list">
+                                <a href="#" class="mobile-menu__social-link link">Facebook</a>
+                            </li>
+                            <li class="mobile-menu__social-list list">
+                                <a href="#" class="mobile-menu__social-link link">LinkedIn</a>
+                            </li>
+                        </ul>
+                    </div>
+            
+                </div>
             </div>
         </header>
         <main>
@@ -349,7 +394,7 @@
         </main>
         <footer class="footer">
             <div class="footer__container container">
-                <div>
+                <div class="footer__adress">
                     <a class="footer__logo logo link" href="./index.html"><span class="logo__akcent">Web</span>Studio</a>
                     <address class="footer__address">г. Киев, пр-т Леси Украинки, 26</address>
                     <ul class="footer__links">
@@ -410,5 +455,6 @@
                 </div>
             </div>
         </footer>
+        <script src="./js/menu.js"></script>
     </body>
 </html>

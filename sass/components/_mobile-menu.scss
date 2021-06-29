@@ -60,9 +60,9 @@
     }
   }
 
-  &__adress {
-    margin-top: 306px;
-  }
+  // &__adress {
+  //   #
+  // }
 
   &__adress-list:not(:first-child) {
     margin-top: 32px;
@@ -124,6 +124,12 @@
       border: none;
     }
   }
+}
+
+.mobile-menu__bottom-box {
+  position: fixed;
+  left: 40px;
+  bottom: 48px;
 }
 
 .mobile-menu.is-open {
